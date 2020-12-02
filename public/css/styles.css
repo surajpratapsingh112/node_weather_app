@@ -1,0 +1,57 @@
+body {
+  color: #888888;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex-grow: 1;
+  background-image: url("https://www.animatedimages.org/data/media/148/animated-weather-image-0070.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  border-top: 5px solid #f75cf7;
+  margin-top: 16px;
+  padding: 10px 0;
+}
+
+.main-content img {
+  width: 250px;
+  height: 350px;
+  margin-top: 16px;
+}
+
+.link a {
+  color: black;
+  background-color: #fce3fc;
+  padding: 5px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.link {
+  text-align: right;
+}
+
+header {
+  border-bottom: 5px solid #f75cf7;
+  padding: 10px;
+}
+
+.main-content button {
+  background-color: #fce3fc;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.main-content input {
+  padding: 5px 10px;
+}
