@@ -31,14 +31,14 @@ app.get("", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About Page",
-    name: "Lala Ram",
+    name: "C B Singh",
   });
 });
 
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help Page",
-    sub: "For any Query or Help Please contact Lala Ram",
+    sub: "For any Query or Help Please contact C B Singh",
     name: "Neeraj Singh",
   });
 });
